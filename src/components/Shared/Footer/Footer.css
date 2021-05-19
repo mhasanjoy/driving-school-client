@@ -1,0 +1,16 @@
+.footer-area{
+    background-color: darkslategrey;
+}
+
+.footer-area li{
+    padding-bottom: 10px;
+}
+
+.social-media .icon{
+    height: 40px;
+    width: 40px;
+    color: gold;
+    border-radius: 50%;
+    border: 1px solid goldenrod;
+    padding: 10px;
+}

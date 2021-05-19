@@ -1,0 +1,14 @@
+.login-button {
+    border: 1px solid grey;
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.login-icon {
+    margin-right: 30px;
+    color: darkgreen;
+    font-size: 25px;
+}

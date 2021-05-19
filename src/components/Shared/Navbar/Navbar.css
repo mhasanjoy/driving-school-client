@@ -1,0 +1,9 @@
+.login {
+    background-color: rebeccapurple;
+    padding: 3px 15px;
+    border-radius: 5px;
+}
+.nav-link {
+    font-size: 18px;
+    font-weight: 600;
+}
