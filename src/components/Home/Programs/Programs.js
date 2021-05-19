@@ -5,7 +5,7 @@ const Programs = () => {
     const [programs, setPrograms] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/programs')
+        fetch('https://whispering-wildwood-29232.herokuapp.com/programs')
             .then(response => response.json())
             .then(data => setPrograms(data));
     }, []);

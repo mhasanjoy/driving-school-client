@@ -19,13 +19,13 @@ const Book = () => {
     };
 
     useEffect(() => {
-        fetch('http://localhost:5000/programs/' + id)
+        fetch('https://whispering-wildwood-29232.herokuapp.com/programs/' + id)
             .then(response => response.json())
             .then(data => setService(data));
     }, [id]);
 
     const handlePayment = () => {
-        fetch('http://localhost:5000/orders', {
+        fetch('https://whispering-wildwood-29232.herokuapp.com/orders', {
             method: 'POST',
             body: JSON.stringify({name: order.name, email: order.email, service: service.title, price: service.price}),
             headers: {'Content-type': 'application/json; charset=UTF-8'}

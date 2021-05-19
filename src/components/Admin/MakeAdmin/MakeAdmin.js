@@ -9,7 +9,7 @@ const MakeAdmin = () => {
     };
 
     const handleSubmit = () => {
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://whispering-wildwood-29232.herokuapp.com/addAdmin', {
             method: 'POST',
             body: JSON.stringify({ email }),
             headers: {

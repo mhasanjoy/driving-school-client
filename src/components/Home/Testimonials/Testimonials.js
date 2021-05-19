@@ -5,7 +5,7 @@ const Testimonials = () => {
     const [testimonials, setTestimonials] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/testimonials')
+        fetch('https://whispering-wildwood-29232.herokuapp.com/testimonials')
             .then(response => response.json())
             .then(data => {
                 setTestimonials(data);

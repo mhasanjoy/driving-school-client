@@ -11,7 +11,7 @@ const Review = () => {
     };
 
     const handleSubmit = () => {
-        fetch('http://localhost:5000/review', {
+        fetch('https://whispering-wildwood-29232.herokuapp.com/review', {
             method: 'POST',
             body: JSON.stringify(reviewInfo),
             headers: {
